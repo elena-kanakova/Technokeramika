@@ -1,0 +1,187 @@
+/* Каталог */
+.nav {
+    border-bottom: 1px solid #3b3b3c;
+}
+.catalog {
+    padding: 50px 15px 20px 15px;
+}
+.catalog-items-wrap {
+    flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+    justify-content: flex-start;
+        -ms-flex-pack: start; 
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+}
+.catalog-items {
+    margin: 0 15px 30px 0;
+    max-width: 270px;
+}
+.catalog-items img {
+    max-width: 270px;
+}
+.catalog-items h3 {
+    padding: 20px 0 20px 0;
+}
+.catalog-items h3 a {
+    font: 20px Opensans, sans-serif;
+    font-weight: 600;
+    color: white;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.catalog-items h3 a:hover {
+    color: #f58132;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.catalog-items ul li {
+    display: inline;
+}
+.catalog-items ul li a {
+    display: block;
+    margin: 5px;
+    font: 13px Opensans, sans-serif;
+    font-weight: 600;
+    color: #acacac;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.catalog-items ul li a:hover {
+    color: #f58132;
+    text-decoration: none;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.footer {
+    border-top: 1px solid #5a5a5b;
+}
+
+@media (max-width: 1150px) {
+    /* Товар */
+    .tovar-img-calls, .tovar-img-calls img {
+        max-width: 350px;
+    }
+    .tovar-desc-content {
+        max-width: 430px;
+    }
+    .tovar-btn-call {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    /* Каталог */
+    .catalog {
+        padding: 50px 20px 0 20px;
+    }
+    .catalog-items {
+        margin: 0 10px 30px 0;
+        max-width: 250px;
+    }
+    .catalog-items img {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 850px) {
+    /* Каталог */
+    .tovar-content {
+        flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+    }
+    .catalog-items {
+        max-width: 220px;
+        width: 220px;
+        margin-right: 15px;
+    }
+    .catalog-items img {
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 790px) {
+    /* Каталог */
+    .catalog-items {
+        max-width: 200px;
+        margin-right: 10px;
+    }
+    .catalog-items img {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Каталог */  
+    .catalog-items-wrap {
+        justify-content: center;
+            -ms-flex-pack: center; 
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+    }
+    .catalog-items h3 a {
+        font: 16px Opensans, sans-serif;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .catalog-items {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 619px) {
+    /* Каталог */  
+    .catalog-items-wrap {
+        justify-content: center;
+            -ms-flex-pack: center; 
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+    }
+}
+
+@media (max-width: 544px) {   
+    /* Каталог */
+    .catalog {
+        flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+        padding: 20px;
+    }
+    .catalog-items-wrap {
+        flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+        align-items: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+    }
+    .catalog-items {
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+    }
+    .catalog-items img {
+        max-width: 400px;
+    }
+    .catalog-items ul {
+        text-align: left;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 469px) { 
+    .catalog-items {
+        margin-right: 0;
+    }
+}

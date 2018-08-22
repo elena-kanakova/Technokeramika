@@ -1,0 +1,97 @@
+/* Расчет стоимости */
+.nav {
+    border-bottom: 1px solid #3b3b3c;
+}
+.catalog {
+    padding: 50px 15px 20px 15px;
+}
+.partners-content h1 {
+    font: 36px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin-bottom: 30px;
+}
+.partners-content p {
+    font: 13px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4;
+    margin-bottom: 20px;
+}
+.partners-content-items {
+    flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+    margin: 0 auto;
+}
+.partners-content-img {
+    padding: 20px;
+}
+.partners-content-img img {
+    max-width: 100px;
+}
+.footer {
+    border-top: 1px solid #5a5a5b;
+}
+
+@media (max-width: 900px) {
+    /* Каталог */
+    .catalog {
+        padding: 50px 20px 0 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    /* Каталог */  
+    .partners-content img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .partners-content h1 {
+        text-align: center;
+    }  
+    .partners-content-items {
+        justify-content: center;
+            -ms-flex-pack: center; 
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+    }
+}
+
+@media (max-width: 750px) {
+    /* Каталог */  
+    .partners-content h1 {
+        font: 24px Opensans, sans-serif;
+    }
+} 
+
+@media (max-width: 544px) {     
+    .partners-content-img {
+        padding: 10px;
+    }  
+    .partners-content-img img {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 320px) {   
+    /* Каталог */
+    .catalog {
+        flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+        padding: 20px;
+    } 
+    .partners-content h1 {
+        text-align: center;
+    }     
+    .partners-content-img {
+        padding: 10px;
+    }  
+    .partners-content-img img {
+        max-width: 70px;
+    }
+}

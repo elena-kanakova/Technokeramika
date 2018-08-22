@@ -1,0 +1,141 @@
+/* Расчет стоимости */
+.nav {
+    border-bottom: 1px solid #3b3b3c;
+}
+.catalog {
+    padding: 50px 15px 20px 15px;
+}
+.contacts-content h1 {
+    font: 36px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin-bottom: 30px;
+}
+.contacts-content h2 {
+    font: 24px Opensans, sans-serif;
+    font-weight: 600;
+    color: #d4d4d4;
+    margin-bottom: 30px;
+}
+.phones-img {
+    align-items: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    margin: 20px 0 20px 0;
+}
+.contacts-img, .mail img {
+    margin-right: 20px;
+}
+.phones p a, .mail a {
+    font: 16px Opensans, sans-serif;
+    font-weight: 600;
+    color: white;
+      -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.mail {
+    align-items: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    margin-bottom: 20px;
+}
+.address {
+    justify-content: space-between;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+    border-top: 1px solid #5a5a5b;
+    padding: 20px 0 20px 0;
+}
+.address a {
+    font: 13px Opensans, sans-serif;
+    font-weight: 400;
+    color: #f58132;
+      -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.address a:hover {
+    color: white;
+}
+.mail a:hover, .phones p a:hover {
+    color: #f58132;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.address p {
+    font: 13px Opensans, sans-serif;
+    font-weight: 600 !important;
+}
+.contacts-content p {
+    margin-bottom: 10px;
+    font: 13px/20px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4;
+}
+.map {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.footer {
+    border-top: 1px solid #5a5a5b;
+}
+
+@media (max-width: 900px) {
+    /* Каталог */
+    .catalog {
+        padding: 50px 20px 0 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    /* Каталог */  
+    .contacts-form-item {
+        flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .contacts-content h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    /* Каталог */  
+    .contacts-content h1 {
+        font: 24px Opensans, sans-serif;
+    } 
+    .contacts-content h2 {
+        font: 18px Opensans, sans-serif;
+    }
+    .contacts-content h4 {
+        font: 16px Opensans, sans-serif;
+    }
+    .phones p a, .mail a {
+        font: 13px Opensans, sans-serif;
+    }
+    .address {
+        flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;   
+    }
+    .map {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 544px) {   
+    .address, .map {
+        text-align: center;
+    }
+    .map {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}

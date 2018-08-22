@@ -1,0 +1,91 @@
+/* Расчет стоимости */
+.nav {
+    border-bottom: 1px solid #3b3b3c;
+}
+.catalog {
+    padding: 50px 15px 20px 15px;
+}
+.vacancy-content h1 {
+    font: 36px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin-bottom: 30px;
+}
+.vacancy-title {
+    font: 20px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin: 20px 0 20px 0;
+}
+.vacancy-content-contacts {
+    text-align: center;
+}
+.vacancy-content-contacts a {
+    font: 16px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;  
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;  
+}
+.vacancy-content-contacts a:hover {
+    color: white;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.vacancy-content-contacts h4 {
+    font: 14px Opensans, sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    border: 1px solid #f58132;
+}
+.vacancy-content p {
+    margin-bottom: 10px;
+    font: 13px/20px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4;
+}
+.vacancy-content-img {
+    text-align: center;
+    padding: 20px;
+}
+.vacancy-content-img img {
+    max-width: 500px;
+}
+.footer {
+    border-top: 1px solid #5a5a5b;
+}
+
+@media (max-width: 900px) {
+    /* Каталог */
+    .catalog {
+        padding: 50px 20px 0 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    /* Каталог */  
+    .vacancy-content img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .vacancy-content h1 {
+        text-align: center;
+    } 
+}
+
+@media (max-width: 750px) {
+    /* Каталог */  
+    .vacancy-content h1 {
+        font: 24px Opensans, sans-serif;
+    }
+}
+
+@media (max-width: 544px) {    
+    .vacancy-content img {
+        max-width: 200px;
+    }
+}

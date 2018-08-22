@@ -1,0 +1,143 @@
+/* Расчет стоимости */
+.nav {
+    border-bottom: 1px solid #3b3b3c;
+}
+.catalog {
+    padding: 50px 15px 20px 15px;
+}
+.information-content h2 {
+    font: 30px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin-bottom: 30px;
+}
+.information-content p {
+    margin-bottom: 10px;
+    font: 13px/20px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4;
+}
+.information-content-items {
+    margin-bottom: 30px;
+    padding: 0 30px 30px 0;
+    border-bottom: 1px solid #3b3b3c;
+    cursor: pointer;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.information-content-items-img {
+    margin-right: 20px;
+    padding-top: 5px;
+}
+.information-content-items-img img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid transparent;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;  
+}
+.information-content-items:hover {
+    padding: 30px;
+    border: 1px solid #f58132;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;  
+}
+.footer {
+    border-top: 1px solid #5a5a5b;
+}
+
+@media (max-width: 900px) {
+    /* Каталог */
+    .catalog {
+        padding: 50px 20px 0 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .information-content {
+        align-items: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+    }
+    .information-content h2 {
+        text-align: center;
+    }
+    .information-content-items {
+        margin-bottom: 30px;
+        padding: 0 0 30px 0;
+    }
+    .information-content-items:nth-last-child(1) {
+        border: none;
+    }
+    .information-content-items-item-1 {
+        flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+        align-items: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+    }   
+    .information-content-items-img {
+        margin-right: 0;
+    }
+    .information-content-items-item-1 p {
+        margin-top: 20px;
+    }
+    .btn-more {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 750px) {
+    /* Каталог */  
+    .information-content h2 {
+        font: 24px Opensans, sans-serif;
+    }
+    .information-content-items {
+        flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+    }
+    .information-content-items-img {
+        text-align: center;
+    }
+    .information-content-items p {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 544px) {   
+    /* Каталог */
+    .information-content img {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 320px) { 
+    .information-content-items {
+        flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+        align-items: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+    }    
+    .information-content-items-img {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }   
+    .information-content img {
+        max-width: 200px;
+    }
+}

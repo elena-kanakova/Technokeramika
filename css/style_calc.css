@@ -1,0 +1,242 @@
+/* Расчет стоимости */
+.nav {
+    border-bottom: 1px solid #3b3b3c;
+}
+.catalog {
+    padding: 50px 15px 20px 15px;
+}
+.calc-content {
+    flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+}
+.calc-content h1 {
+    margin: 0;
+    padding: 0;
+    font: 36px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin-bottom: 30px;
+}
+.calc-form-options, .calc-form-options-add {
+    flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+}
+.calc-form-option {
+    color: #252526;
+}
+.calc-form {
+    font: 13px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4;  
+}
+.select {
+    margin-right: 20px;
+}
+.select p, .dostavka-options p {
+    padding: 10px 0 10px 0;
+    font: 14px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4; 
+}
+.calc-form-btns {
+    flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+}
+#add_option, #add_option-2, #delete_option, #delete_option-2 {
+    margin-right: 30px;
+}
+.calc-form-add {
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    background: none;
+    background-color: #f58132;
+    color: white;
+    cursor: pointer;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.calc-form-add:hover {
+    background: none;
+    border: 1px solid #5a5a5b;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.calc-form-input {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    color: #d4d4d4; 
+    background: none;
+    border: 1px solid #5a5a5b;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.calc-form-input:hover {
+    border: 1px solid #f58132;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.dostavka-options {
+    margin: 20px 0 20px;
+}
+.dostavka {
+    align-items: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    margin: 10px 0 10px 0;
+}
+.dostavka input {
+    margin-right: 10px;
+}
+.contacts-form {
+    flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+}
+.contacts-form-item {
+    margin: 10px 0 10px 0;
+}
+.contacts-form-item p {
+    width: 200px;
+    padding-right: 20px;
+}
+.contacts-form-item p span {
+    color: #f58132;
+}
+.contacts-form_input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    color: #d4d4d4; 
+    background: none;
+    border: 1px solid #5a5a5b;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.contacts-form_input:hover {
+    border: 1px solid #f58132;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.contacts-form-textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+    resize: none;
+    font: 13px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4;  
+    background: none;
+    border: 1px solid #5a5a5b;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.contacts-form-textarea:hover {
+    border: 1px solid #f58132;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.calc-form-submit {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 20px;
+    background: none;
+    background-color: #f58132;
+    color: white;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.calc-form-submit:hover {
+    background: none;
+    border: 1px solid #5a5a5b;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.footer {
+    border-top: 1px solid #5a5a5b;
+}
+
+@media (max-width: 900px) {
+    /* Каталог */
+    .catalog {
+        padding: 50px 20px 0 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    /* Каталог */  
+    .contacts-form-item {
+        flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) { 
+    .calc-content h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    /* Каталог */  
+    .calc-content h1 {
+        font: 24px Opensans, sans-serif;
+    }
+}
+
+@media (max-width: 544px) {   
+    .calc-form-options, .calc-form-options-add {
+        flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+    }
+    .calc-form-input {
+        width: 100%;
+    }
+    .calc-form-add {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 469px) {   
+    .calc-form-btns {
+        flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+        align-items: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+    }    
+    #add_option {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

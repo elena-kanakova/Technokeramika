@@ -1,0 +1,113 @@
+/* Расчет стоимости */
+.nav {
+    border-bottom: 1px solid #3b3b3c;
+}
+.catalog {
+    padding: 50px 15px 20px 15px;
+}
+.career-content h1 {
+    font: 36px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin-bottom: 30px;
+}
+.career-content h3 {
+    font: 20px Opensans, sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f58132;
+    text-align: center;
+}
+.career-content-items {
+    margin: 40px 0 40px 0;
+}
+.career-content-items h4 a {
+    font: 18px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin: 20px 0 20px 0;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;  
+}
+.career-content-items h4 a:hover {
+    color: white;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;  
+}
+.career-content-items p {
+    padding: 10px 0 10px 0;
+}
+.career-content-contacts {
+    text-align: center;
+}
+.career-content-contacts a {
+    font: 16px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;  
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;  
+}
+.career-content-contacts a:hover {
+    color: white;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.career-content-contacts h4 {
+    font: 14px Opensans, sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    border: 1px solid #f58132;
+}
+.career-content p, .career-content-items p {
+    margin-bottom: 10px;
+    font: 13px/20px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4;
+}
+.career-content-img {
+    text-align: center;
+    padding: 20px;
+}
+.career-content img {
+    max-width: 500px;
+}
+.footer {
+    border-top: 1px solid #5a5a5b;
+}
+
+@media (max-width: 900px) {
+    /* Каталог */
+    .catalog {
+        padding: 50px 20px 0 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    /* Каталог */  
+    .career-content img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {   
+    .career-content h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    /* Каталог */  
+    .career-content h1 {
+        font: 24px Opensans, sans-serif;
+    }
+}
+
+@media (max-width: 544px) {    
+    .career-content img {
+        max-width: 200px;
+    }
+}

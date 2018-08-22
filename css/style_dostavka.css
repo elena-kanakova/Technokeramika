@@ -1,0 +1,60 @@
+/* Расчет стоимости */
+.nav {
+    border-bottom: 1px solid #3b3b3c;
+}
+.catalog {
+    padding: 50px 15px 20px 15px;
+}
+.dostavka-content h1 {
+    font: 36px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin-bottom: 30px;
+}
+.dostavka-content h4 {
+    font: 20px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin: 20px 0 20px 0;
+}
+.dostavka-content p {
+    margin-bottom: 10px;
+    font: 13px/20px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4;
+}
+.footer {
+    border-top: 1px solid #5a5a5b;
+}
+
+@media (max-width: 900px) {
+    /* Каталог */
+    .catalog {
+        padding: 50px 20px 0 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    /* Каталог */  
+    .contacts-form-item {
+        flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {   
+    .dostavka-content h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    /* Каталог */  
+    .dostavka-content h1 {
+        font: 24px Opensans, sans-serif;
+    }
+    .dostavka-content h4 {
+        font: 16px Opensans, sans-serif;
+    }
+}

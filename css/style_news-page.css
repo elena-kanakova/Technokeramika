@@ -1,0 +1,70 @@
+/* Расчет стоимости */
+.nav {
+    border-bottom: 1px solid #3b3b3c;
+}
+.catalog {
+    padding: 50px 15px 20px 15px;
+}
+.news-page-content {
+}
+.news-page-content h1 {
+    font: 36px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin-bottom: 30px;
+}
+.news-page-content h4 {
+    font: 13px Opensans, sans-serif;
+    font-weight: 600;
+    color: #d4d4d4;
+    margin-bottom: 30px;
+}
+.news-page-content p {
+    margin-bottom: 10px;
+    font: 13px/20px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4;
+}
+.news-page-content-img {
+    text-align: center;
+    padding: 20px;
+}
+.news-page-content-img video {
+    max-width: 500px;
+}
+.footer {
+    border-top: 1px solid #5a5a5b;
+}
+
+@media (max-width: 900px) {
+    /* Каталог */
+    .catalog {
+        padding: 50px 20px 0 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    /* Каталог */  
+    .news-page-content-img video {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .news-page-content h1 {
+        text-align: center;
+    }  
+}
+
+@media (max-width: 750px) {
+    /* Каталог */  
+    .news-page-content h1 {
+        font: 24px Opensans, sans-serif;
+    }
+}
+
+@media (max-width: 544px) {     
+    .news-page-content-img video {
+        max-width: 200px;
+    }
+}

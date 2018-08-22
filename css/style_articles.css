@@ -1,0 +1,98 @@
+/* Расчет стоимости */
+.nav {
+    border-bottom: 1px solid #3b3b3c;
+}
+.catalog {
+    padding: 50px 15px 20px 15px;
+}
+.articles-content h1 {
+    font: 36px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #3b3b3c;
+}
+.articles-content-items {
+    margin: 20px 0 0 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #3b3b3c;
+}
+.articles-content-items h4 a {
+    font: 18px Opensans, sans-serif;
+    font-weight: 600;
+    color: #f58132;
+    margin: 20px 0 20px 0;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;  
+}
+.articles-content-items h4 a:hover {
+    color: white;
+      -webkit-transition: all .3s linear;
+    transition: all .3s linear;  
+}
+.articles-content-items p {
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+    font: 13px/20px Opensans, sans-serif;
+    font-weight: 400;
+    color: #d4d4d4;
+}
+.articles-content-img {
+    padding: 20px 0 20px 0;
+}
+.articles-content-img img {
+    max-width: 500px;
+}
+.articles-more {
+    display: block;
+    width: 130px;
+    height: 25px;
+    padding-top: 2px;
+    color: white !important;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #f58132;
+    transition: all .3s linear;  
+}
+.articles-more:hover {
+    border: 1px solid #5a5a5b;
+    background: none;
+    transition: all .3s linear;  
+}
+.footer {
+    border-top: 1px solid #5a5a5b;
+}
+
+@media (max-width: 900px) {
+    /* Каталог */
+    .catalog {
+        padding: 50px 20px 0 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    /* Каталог */  
+    .articles-content img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .articles-content h1 {
+        text-align: center;
+    } 
+}
+
+@media (max-width: 750px) {
+    /* Каталог */  
+    .articles-content h1 {
+        font: 24px Opensans, sans-serif;
+    }
+}
+
+@media (max-width: 544px) {     
+    .articles-content img {
+        max-width: 200px;
+    }
+}
